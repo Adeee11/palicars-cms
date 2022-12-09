@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_specifications_types",
+  "info": {
+    "displayName": "specs",
+    "icon": "clipboard-list",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Value": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "kind": "collectionType",
+  "collectionName": "listings",
+  "info": {
+    "singularName": "listing",
+    "pluralName": "listings",
+    "displayName": "Listing",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "price": {
+      "type": "string"
+    },
+    "Location": {
+      "type": "string"
+    },
+    "listingTags": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::listing-tag.listing-tag"
+    },
+    "specs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "specifications.type"
+    },
+    "Description": {
+      "type": "text"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "listing_tags",
+  "info": {
+    "singularName": "listing-tag",
+    "pluralName": "listing-tags",
+    "displayName": "ListingTag"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Variant": {
+      "type": "string"
+    }
+  }
+}
