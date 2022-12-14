@@ -44,6 +44,20 @@
     },
     "Description": {
       "type": "text"
+    },
+    "Type": {
+      "type": "enumeration",
+      "enum": [
+        "Sale",
+        "Rent"
+      ]
+    },
+    "Carousel": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true
     }
   }
 }
