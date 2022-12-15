@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "models",
+  "info": {
+    "singularName": "model",
+    "pluralName": "models",
+    "displayName": "Models",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Model": {
+      "type": "string"
+    },
+    "car_make": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::car-make.car-make",
+      "mappedBy": "model"
+    }
+  }
+}
