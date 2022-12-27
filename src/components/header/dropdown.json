@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_header_dropdowns",
+  "info": {
+    "displayName": "Dropdown"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    }
+  }
+}

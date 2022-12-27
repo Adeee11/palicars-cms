@@ -64,6 +64,13 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::model.model"
+    },
+    "Condition": {
+      "type": "enumeration",
+      "enum": [
+        "New",
+        "Refurbished"
+      ]
     }
   }
 }

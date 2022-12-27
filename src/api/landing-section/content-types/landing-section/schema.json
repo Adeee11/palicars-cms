@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "landing_sections",
+  "info": {
+    "singularName": "landing-section",
+    "pluralName": "landing-sections",
+    "displayName": "Landing Section"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

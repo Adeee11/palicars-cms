@@ -12,14 +12,14 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Model": {
+    "Title": {
       "type": "string"
     },
     "car_make": {
       "type": "relation",
-      "relation": "oneToOne",
+      "relation": "manyToOne",
       "target": "api::car-make.car-make",
-      "mappedBy": "model"
+      "inversedBy": "models"
     }
   }
 }

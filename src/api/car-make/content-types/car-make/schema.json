@@ -15,11 +15,11 @@
     "Title": {
       "type": "string"
     },
-    "model": {
+    "models": {
       "type": "relation",
-      "relation": "oneToOne",
+      "relation": "oneToMany",
       "target": "api::model.model",
-      "inversedBy": "car_make"
+      "mappedBy": "car_make"
     }
   }
 }

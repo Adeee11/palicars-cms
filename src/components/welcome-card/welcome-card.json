@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_welcome_card_welcome_cards",
+  "info": {
+    "displayName": "Welcome Card"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "string"
+    }
+  }
+}
