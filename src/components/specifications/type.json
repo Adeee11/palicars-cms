@@ -10,13 +10,8 @@
     "FuelType": {
       "type": "enumeration",
       "enum": [
-        "Petrol ",
-        "LPG",
-        "CNG",
         "Diesel",
-        "Methanol",
-        "Ethanol",
-        "Bio-Diesel",
+        "Gasoline",
         "Electric"
       ]
     },
@@ -25,8 +20,7 @@
       "enum": [
         "Manual",
         "Automatic",
-        "Semi-Automatic",
-        "Dual-Clutch"
+        "CVT"
       ]
     },
     "DriveType": {
@@ -34,36 +28,28 @@
       "enum": [
         "Front-wheel",
         "Rear-wheel",
-        "Four-wheel",
-        "All-wheel"
+        "Four-wheel"
       ]
     },
     "Door": {
       "type": "enumeration",
       "enum": [
-        "Scissor",
-        "Gull-wing",
-        "Butterfly",
-        "Suicide",
-        "Sliding",
-        "Pocket",
-        "Swan",
-        "Canopy",
-        "Dihedral",
-        "Front-Hinged"
+        "Two Doors",
+        "Three Doors",
+        "Four Doors",
+        "Six Doors"
       ]
     },
     "BodyStyle": {
       "type": "enumeration",
       "enum": [
-        "Convertible",
-        "Coupe",
-        "Pickups",
-        "Hatchback",
+        "Pickup",
+        "SUV",
         "Minivan",
-        "Sports",
         "Sedan",
-        "SUV"
+        "Coupe",
+        "Station wagon",
+        "Hatchback"
       ]
     },
     "MPG": {
@@ -79,28 +65,22 @@
       "type": "enumeration",
       "enum": [
         "Red",
-        "Black",
         "Blue",
-        "Brown",
-        "Maroon",
-        "Gray",
-        "White",
-        "Silver",
-        "Green"
+        "Green ",
+        "Yellow ",
+        "Black",
+        "White"
       ]
     },
     "Interior_Color": {
       "type": "enumeration",
       "enum": [
         "Red",
-        "Black",
         "Blue",
-        "Brown",
-        "Maroon",
-        "Gray",
-        "White",
-        "Silver",
-        "Green"
+        "Green",
+        "Yellow",
+        "Black",
+        "White"
       ]
     }
   }

@@ -69,8 +69,22 @@
       "type": "enumeration",
       "enum": [
         "New",
-        "Refurbished"
+        "Used",
+        "Public",
+        "Government"
       ]
+    },
+    "City": {
+      "type": "string"
+    },
+    "Area": {
+      "type": "string"
+    },
+    "From": {
+      "type": "date"
+    },
+    "To": {
+      "type": "date"
     }
   }
 }

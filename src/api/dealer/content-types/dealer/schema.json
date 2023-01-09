@@ -1,0 +1,44 @@
+{
+  "kind": "collectionType",
+  "collectionName": "dealers",
+  "info": {
+    "singularName": "dealer",
+    "pluralName": "dealers",
+    "displayName": "Dealer"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "FirstName": {
+      "type": "string"
+    },
+    "LastName": {
+      "type": "string"
+    },
+    "Phone": {
+      "type": "string"
+    },
+    "Password": {
+      "type": "password"
+    },
+    "Email": {
+      "type": "email"
+    },
+    "DealerName": {
+      "type": "string"
+    },
+    "City": {
+      "type": "string"
+    },
+    "Area": {
+      "type": "string"
+    },
+    "Hours": {
+      "type": "integer",
+      "max": 24,
+      "min": 1
+    }
+  }
+}
